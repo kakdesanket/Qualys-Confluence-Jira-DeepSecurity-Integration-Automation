@@ -56,7 +56,7 @@ def QualysReportTemplateAPI():
     }
     data = {
         'action': 'launch',
-        'template_id': '1659406',
+        'template_id': '1111111',
         'output_format': 'csv',
         'report_type': 'Scan',
         '': ''
@@ -174,7 +174,7 @@ def DeepSec_Api():
 '''Confluence API Section '''
 def ConflueneAPI():
     confluence = Confluence(
-    url='https://confluence.elkjop.com',
+    url='https://confluence.client.com',
     qname='',
     qpass='')
 
