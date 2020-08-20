@@ -6,7 +6,7 @@ For interaction with qualys and deep security standalone python script is used w
 
 For integration with Confluence Powershell module is used to create interactive charts and graphs.
 
-#Python Interface 
+<h1>Python Interface</h1>
 Script will fetch information from Qualys and Deep security Platform and store in the SQLite Format on local system. It take argements to pass username password and API key for getting necessary information
 Usage : script.py -h 
  
@@ -37,7 +37,8 @@ Librarires required :
     from openpyxl import Workbook
     from datetime import datetime
 
-#Powershell Interface
+<h1>Powershell Interface</h1>
+
 Used for communication with Confluence and post data on regular basis.Interface will prompt for valid credential every time its executed.
 Usage : script.ps1
 Libraries required : 
