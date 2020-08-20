@@ -37,6 +37,11 @@ Librarires required :
     from openpyxl import Workbook
     from datetime import datetime
 
+Modification before executing script 
+1. Qualys Client/Region specific API URL
+2. Report template ID : Read qualys documentation for generating report template
+3. Confluence URL
+
 <h1>Powershell Interface</h1>
 
 Used for communication with Confluence and post data on regular basis.Interface will prompt for valid credential every time its executed.
@@ -44,3 +49,8 @@ Usage : script.ps1
 Libraries required : 
     Import-Module ConfluencePS
     Import-Module PSSQLite
+
+Modification before executing script 
+1. Confluence URL
+2. Database file path (for pulling information)
+3. Page IDs at necessary location
